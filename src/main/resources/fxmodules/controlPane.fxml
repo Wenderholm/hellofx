@@ -4,9 +4,9 @@
 <?import javafx.scene.layout.HBox?>
 
 
-<HBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<HBox xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.javastart.fxmodules.controller.ControlPaneController">
    <children>
-      <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Button" HBox.hgrow="ALWAYS" />
-      <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Button" HBox.hgrow="ALWAYS" />
+      <Button fx:id="upperCaseLetter" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="BIGER LETTERS" HBox.hgrow="ALWAYS" />
+      <Button fx:id="lowerCaseLetter" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="small letters" HBox.hgrow="ALWAYS" />
    </children>
 </HBox>
